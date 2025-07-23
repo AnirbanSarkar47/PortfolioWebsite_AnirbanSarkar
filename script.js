@@ -249,7 +249,40 @@ gsap.from("#div_part1_section2,#div_part2_section2,#div_part3_section2",{
 
 
 
+// image to source at page 3
 
+
+const pic1 = document.getElementById("div_part1_section1");
+pic1.addEventListener('click',()=>{
+    window.location.href="https://anirbansarkar47.github.io/H2O_WEB/"
+})
+
+const pic2 = document.getElementById("div_part2_section1");
+pic2.addEventListener('click',()=>{
+    window.location.href="https://anirbansarkar47.github.io/Bike_ktmLandingPage/"
+})
+
+
+const pic3 = document.getElementById("div_part3_section1");
+pic3.addEventListener('click',()=>{
+    window.location.href="https://qrcodegenerator00001.netlify.app/"
+})
+
+
+
+const pic4 = document.getElementById("div_part1_section2");
+pic4.addEventListener('click',()=>{
+    window.location.href="https://todolistanonymous.netlify.app/"
+})
+
+const pic5 = document.getElementById("div_part2_section2");
+pic5.addEventListener('click',()=>{
+    window.location.href="https://talk-zone.onrender.com/"
+})
+
+
+const pic6 = document.getElementById("div_part3_section2");
+pic6.addEventListener('click',()=>{})
 
 
 
@@ -332,6 +365,9 @@ gsap.from("#content> h3",{
 
 
 
+
+
+   
 
 
 

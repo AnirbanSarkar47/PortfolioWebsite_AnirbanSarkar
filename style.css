@@ -24,7 +24,8 @@ body {
     /* border: 3px red solid; */
     width: 100%;
     height: 50px;
-    background-color: rgb(8, 8, 8);
+    background-color: rgba(0, 0, 0, 0.21);
+    backdrop-filter: blur(10px);
     position: fixed;
     z-index: 99;
     color: white;
@@ -400,8 +401,8 @@ body {
   border-radius: 25px 0px;
 }
 #icon1 > img {
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   border: 2px white solid;
   background-color: #ffff;
 
@@ -417,8 +418,8 @@ body {
   transform: scale(1.25);
 }
 #icon2 > img {
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   border: 2px white solid;
   border-radius: 50%;
   background-color: #ffff;
@@ -432,9 +433,9 @@ body {
   transform: scale(1.25);
 }
 #icon3 > img {
-  height: 50px;
-  width: 50px;
-  border: 2px white solid;
+  height: 60px;
+  width: 60px;
+  border: 5px white solid;
   border-radius: 50%;
   background-color: #ffff;
   /* filter: blur(2px); */
@@ -447,7 +448,7 @@ body {
   transform: scale(1.25);
 }
 #icon4 > img {
-  height: 50px;
+  height: 55px;
   width: 50px;
   /* filter: blur(2px); */
 }
@@ -459,9 +460,13 @@ body {
   transform: scale(1.25);
 }
 #icon5 > img {
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
+  border: 5px white solid;
+  border-radius: 50%;
+  background-color: black;
   /* filter: blur(2px); */
+  
 }
 #icon5 > img:hover {
   cursor: pointer;
@@ -473,9 +478,6 @@ body {
 #icon6 > img {
   height: 50px;
   width: 50px;
-  /* border: 2px white solid; */
-  border-radius: 50%;
-  background-color: black;
   /* filter: blur(2px); */
 }
 #icon6 > img:hover {
@@ -820,6 +822,14 @@ body {
     justify-content: center;
     align-items: center;
   }
+
+
+
+
+
+
+
+  
   #form {
     width: 25%;
     height: 420px;
@@ -903,11 +913,21 @@ body {
     border-color: #ffffff;
     transition: ease-in 0.2s;
   }
+
+
+
+
+
+
+
+
+
   #lower_part {
     width: 100%;
     height: 20%;
     margin-top: 20px;
-    background-color: #ffffff21;
+    background-color: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
   }
   #lower_part > h2 {
     font-family: "Belanosima", sans-serif;
@@ -919,12 +939,13 @@ body {
   }
   #content {
     display: flex;
+    
   }
   #social {
     display: flex;
     width: 30%;
     justify-content: space-evenly;
-    margin-top: 20px;
+    margin-top: 10px;
     /* border: 2px solid red; */
   }
   #social_logo1 > img {
