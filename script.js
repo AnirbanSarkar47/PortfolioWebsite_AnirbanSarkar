@@ -1,12 +1,13 @@
+
 var tl = gsap.timeline()
-tl.from("#nav_logo>img,#name h3, #nav_option li",{
+tl.from("#nav_logo,#name h3, #nav_option li, #menuIcon",{
     y:-100,
     duration:1,
     opacity: 0,
     stagger:0.3
 
 })
-tl.from(".container, .animation, #description p, #svg_prop svg",{
+tl.from(".container, .animation, #description p, #svg_prop",{
     y:100,
     duration:0.6,
     // delay:0.6,
@@ -24,8 +25,34 @@ tl.from("#pic_page1",{
 
 })
 
+//  page 1 nav bar
+
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+
+const menuIcon = document.querySelector("#menuIcon");
+const responsiveNavMenu = document.querySelector("#responsiveNavMenu");
 
 
+menuIcon.addEventListener('click',()=>{
+    if(responsiveNavMenu.style.display == "" || responsiveNavMenu.style.display == "none"){
+        responsiveNavMenu.style.display = "block" 
+        responsiveNavMenu.style.transition= "display 0.3s ease";
+        
+        
+
+    }else{
+        responsiveNavMenu.style.display = "none"
+        
+        
+
+    }
+   
+   
+   
+    
+})
 
 
 
