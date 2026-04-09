@@ -879,7 +879,7 @@ body {
 
 
   #right_p2{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-left: none;
     padding-top:6vw ;
     width: 100%;
